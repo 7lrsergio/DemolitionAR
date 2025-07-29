@@ -611,8 +611,8 @@ ul.cat li{
 		flex-direction: column;
 	}
 
-	.img-map{
-		max-height: 25rem;
+.about-map{
+		display: none;
 	}
 
 .about-text{
