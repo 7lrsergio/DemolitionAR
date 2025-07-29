@@ -298,7 +298,7 @@ header .intro-text {
 	text-align: left;
 	flex: 0 1 45%; /* Each image takes up 45% of the container */
 	max-width: 250px; /* Ensure images don't grow too large */
-	height: auto; /* Maintain aspect ratio */
+	height: 25rem; /* Maintain aspect ratio */
 	object-fit: cover; /* Ensure the image is properly cropped */
   }
 	
@@ -382,6 +382,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6700', end
 ul.cat li {
 	display: inline-block;
 	height: 10rem;
+	;
 }
 ol.type li {
 	display: inline-block;
@@ -581,10 +582,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .categories{
-	max-height: 20rem;
+	height: 20rem;
 }
 ul.cat li{
-	height: 8rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	height: 5rem;
+	width: 90%;
+	
 }
 
 .type{
@@ -599,12 +605,13 @@ ul.cat li{
 }
 
 
+
 #about .img-container{
 		display: flex;
 		flex-direction: column;
 	}
 
-.img-map{
+	.img-map{
 		max-height: 25rem;
 	}
 
