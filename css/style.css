@@ -584,7 +584,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-height: 20rem;
 }
 ul.cat li{
-	height: 15rem;
+	height: 8rem;
 }
 
 .type{
@@ -602,6 +602,10 @@ ul.cat li{
 #about .img-container{
 		display: flex;
 		flex-direction: column;
+	}
+
+	.img-map{
+		max-height: 25rem;
 	}
 
 .about-text{
